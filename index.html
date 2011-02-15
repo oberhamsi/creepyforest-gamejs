@@ -1,0 +1,22 @@
+<% extends './skins/app.html' %>
+
+<% subskin content %>
+<canvas id="jsgamecanvas"></canvas>
+  <h3> Move mouse. Left mouse button click.</h3>
+ <h1>Creepy Forrest</h1>
+ <a href=http://github.com/oberhamsi/creepyforrest-gamejs/>@github</a>
+   </p>
+   <script type="text/javascript">
+   (function() {
+     if (document.location.href.indexOf('localhost') != -1) return;
+
+     var stss = document.createElement('script');
+     stss.type = 'text/javascript';
+     stss.async = true;
+     stss.src = 'http://stats.nekapuzer.at/hit/?referer=' + escape(document.referrer) +
+          '&site=rtsimple-game' +
+          '&random=' + (new Date()).getTime();
+     var s = document.getElementsByTagName('script')[0];
+     s.parentNode.insertBefore(stss, s);
+   })();
+    </script>

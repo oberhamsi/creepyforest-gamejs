@@ -1,0 +1,19 @@
+HammerTime
+=========================
+
+Play: http://gamejs.org/apps/creepyforrest/
+
+This is a GameJs.org app. Built around the time of http://html5gamejam.com 2011 to test audio capabilities
+
+Only works in FF (bad sound bugs. I refuse to add all the workarounds. I'll wait it out).
+
+Instructions
+-------------
+Your character follows the mouse. Left click to swish.
+
+Authors
+--------
+Code and design, Simon Oberhammer, MIT License
+Sound effects, Independent.nu, CC0 (Public Domain)
+Music Battle March, http://www.playonloop.com/, CC-BY 3.0
+Music Creepy Forest, Brandon Morris, CC-BY 3.0
